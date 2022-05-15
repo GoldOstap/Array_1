@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int k =0;
+        int k;
         Scanner scan=new Scanner(System.in);
         System.out.print("Введи размер массива: ");
         k = scan.nextInt();
@@ -13,6 +13,7 @@ public class Main {
         for (int t=0; t<myArray.length; t++)
             myArray[t]=(t+1)*2;
 
+ // написал подругому циклы
         for (int t:myArray )
             System.out.print(t+" ");
         System.out.println();
