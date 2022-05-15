@@ -13,11 +13,11 @@ public class Main {
         for (int t=0; t<myArray.length; t++)
             myArray[t]=(t+1)*2;
 
-        for (int t=0; t<myArray.length; t++)
-            System.out.print(myArray[t]+" ");
+        for (int t:myArray )
+            System.out.print(t+" ");
         System.out.println();
-        
-        for (int t=0; t<myArray.length; t++)
-            System.out.println(myArray[t]);
+
+        for (int t: myArray)
+            System.out.println(t);
     }
 }
