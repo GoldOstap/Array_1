@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        int k;
         Scanner scan=new Scanner(System.in);
         System.out.print("Введи размер массива: ");
-        k = scan.nextInt();
+        int k = scan.nextInt();
 
         int[] myArray= new int[--k];
 
